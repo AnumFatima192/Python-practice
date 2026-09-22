@@ -6,27 +6,36 @@ As an ICS student, my goal is to build a strong foundation in Computer Science, 
 
 ---
 
-## 🛠️ Featured Project: Smart Terminal Calculator
+## 🛠️ Featured Projects
 
-An advanced command-line calculator built with clean, modular Python code. It demonstrates essential programming practices including loops, functions, and error handling.
+### 1. 📋 Smart To-Do List Manager
+An advanced terminal-based task organizer that allows users to manage their daily goals efficiently.
+* 🔹 **Dynamic Storage:** Uses Python `Lists` to dynamically add and remove tasks.
+* 🔢 **Auto Indexing:** Utilizes the `enumerate()` function to automatically number tasks for a cleaner view.
+* 🛡️ **Data Validation:** Prevents empty tasks and handles incorrect index inputs using exception handling.
 
-### ✨ Key Features
+### 2. 🧮 Smart Terminal Calculator
+An advanced command-line calculator built with clean, modular Python code.
 * 🔹 **Modular Structure:** Uses individual Python functions (`def`) for clear and organized logic.
-* 🔄 **Continuous Execution:** Implements an infinite `while` loop so the user can perform multiple calculations without restarting the program.
-* 🛡️ **Robust Error Handling:** Uses `try-except` blocks to handle invalid text inputs seamlessly and prevents division-by-zero crashes.
+* 🔄 **Continuous Execution:** Implements an infinite `while` loop for multiple calculations without restarting.
+* 🛡️ **Robust Error Handling:** Uses `try-except` blocks to handle invalid text inputs and prevents division-by-zero crashes.
 
-### 📊 How It Works (Code Breakdown)
+---
+
+### 📊 How It Works (Technical Concepts Applied)
 
 | Component | Technique Used | Purpose |
 | :--- | :--- | :--- |
+| **Task Management** | Python Lists & `.append() / .pop()` | Dynamically controls data storage. |
 | **Arithmetic Logic** | Functions (`def`) | Keeps operations clean and reusable. |
-| **Input Validation** | Exception Handling (`ValueError`) | Catches non-numeric inputs without crashing. |
+| **Input Validation** | Exception Handling (`try-except`) | Catches non-numeric inputs without crashing. |
 | **Safety Filter** | Conditional Logic (`if/else`) | Stops mathematical errors like `X / 0`. |
 
 ---
 
 ## 📈 My Roadmap to GKS 2029
-* [x] Learn basic Python & Git/GitHub fundamentals.
+* [ ] Learn basic Python & Git/GitHub fundamentals.
+* [ ] Build foundational Python projects (Calculator, To-Do List).
 * [ ] Build 5+ intermediate Python projects (GUI Apps, Automation scripts).
 * [ ] Maintain a consistent GitHub contribution graph (Green Dots).
 * [ ] Keep academic grades exceptionally high in ICS.
